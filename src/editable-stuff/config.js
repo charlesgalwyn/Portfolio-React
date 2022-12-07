@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Charles",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Galwyn",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/charlesgalwyn",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/people/Charles-Galwyn/100079383486507/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/charles_galwyn/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/charles-p-067a74178/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com/java_offl/",
     },
   ],
 };
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: "https://avatars.githubusercontent.com/u/111170924?s=400&u=bf045ed40aaa0c121b252ec0730695a367e9bbd9&v=4",
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Charles Galwyn. I’m a graduate of 2020 from Alagappa College of Technology, Anna University with a degree in Chemical Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like solving problems in LeetCode .",
+  resume: "https://drive.google.com/file/d/1yBaGGoKU_iQAfxXEwPbylali86-sEPEV/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,9 +66,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "charlesgalwyn", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["Bohemiantraders-website-clone","Udemy-clone", "JIOMART_CLONE","DSA-Problems"],
 };
 
 // Leadership SECTION
@@ -100,14 +100,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "JAVA", value: 90 },
+    { name: "NodeJS", value: 75 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Chakra UI", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "React", value: 85 },
+    { name: "HTML/CSS", value: 80 },
+    { name: "MongoDB", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,8 +126,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Software Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "charlesgalwyn@gmail.com",
 };
 
 const experiences = {
