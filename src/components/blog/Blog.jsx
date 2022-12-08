@@ -2,10 +2,16 @@ import React from "react";
 import { BlogBuilder } from "./BlogBuilder";
 import bloglist from "../../editable-stuff/blog";
 import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 const Blog = (props) => {
   return (
+    <Container>
     <div className="container-lg mt-5 bg-blue">
-      <h1 className="text-center">Blogs</h1>
+      <h1 className="display-4 pb-5 text-center">Blogs</h1>
+      <Row>
       {bloglist.map((value, index) => {
         return (
           <BlogCard
@@ -16,12 +22,16 @@ const Blog = (props) => {
           />
         );
       })}
+      </Row>
     </div>
+    </Container>
   );
 };
 
 const BlogCard = ({ index, title, image, description }) => {
   return (
+    <Col md={6}>
+    <Card>
     <div className="m-5">
       <div className="">
         <div className="row">
@@ -30,17 +40,20 @@ const BlogCard = ({ index, title, image, description }) => {
           </div>
           <div className="col-8 col-lg-12">
             <div className="">
-              <h1 className="">{title}</h1>
-              <p className="lead">{description}</p>
+              <Card.Title as="h5">{title}</Card.Title>
+              
+              <Card.Text>{description}</Card.Text>
               <Link to={`${process.env.PUBLIC_URL}blog/${index}`}>
                 Read more...{" "}
               </Link>
             </div>
           </div>
         </div>
-        <hr />
+        
       </div>
     </div>
+    </Card>
+    </Col>
   );
 };
 
