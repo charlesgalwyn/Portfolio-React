@@ -15,14 +15,14 @@ const mainBody = {
       image: "fa-github",
       url: "https://github.com/charlesgalwyn",
     },
-    {
+/*     {
       image: "fa-facebook",
       url: "https://www.facebook.com/people/Charles-Galwyn/100079383486507/",
-    },
-    {
+    }, */
+/*     {
       image: "fa-instagram",
       url: "https://www.instagram.com/charles_galwyn/",
-    },
+    }, */
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/charles-p-067a74178/",

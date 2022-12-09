@@ -36,7 +36,7 @@ const Project = ({ heading, username, length, specfic }) => {
       // adding specified repos
       try {       
       for (let repoName of specfic) {
-          console.log(repoName)
+          
           const response = await axios.get(`${specficReposAPI}/${repoName}`);
           repoList.push(response.data);
         }

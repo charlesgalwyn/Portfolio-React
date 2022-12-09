@@ -14,7 +14,7 @@ const ProjectCard = ({ value }) => {
     pushed_at,
     homepage
   } = value;
-  console.log(value)
+  
   return (
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
