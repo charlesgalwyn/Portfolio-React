@@ -81,7 +81,7 @@ const leadership = {
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
       label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      paragraph: "Nulla vitae elit libero, a phartra augue mollis intrdum." 
     },
     { 
       img: require("../editable-stuff/hashirshoaeb.png"), 
