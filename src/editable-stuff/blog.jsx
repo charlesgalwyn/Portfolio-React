@@ -5,7 +5,7 @@ const blog1 = new BlogBuilder({
   title: "Bohemian Traders Website Clone",
   image: require("../assets/img/bohemian blog.png"),
   description:
-    "This blog is regarding the Bohemian Traders website cloning project that I build along with four other members of the team",
+    "This blog is regarding the Bohemian Traders website cloning project built during construct week",
   bloglink:"https://medium.com/@charlesgalwyn/bohemian-traders-website-full-clone-with-dynamic-data-f083fe0afe2",   
 });
 

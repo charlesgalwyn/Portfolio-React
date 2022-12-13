@@ -21,10 +21,48 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
   );
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
+  
       <Container className="p-5 ">
+        
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
+        <div class="row align-items-center">
+        <div class="col">
+            <img src= {require("../../assets/img/icon-1.png") } class="rounded float-start" height="100px" alt="html"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/icon-2.png") } class="rounded float-start" height="100px" alt="css"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/icon-3.png") } class="rounded float-start" height="100px" alt="js"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/NodeJS.png") } class="rounded float-start" height="100px" alt="node"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/icon-6.png") } class="rounded float-start" height="100px" alt="react"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/MongoDB.png") } class="rounded float-start" height="100px" alt="mongo"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/Java.png") } class="rounded float-start" height="100px" alt="java"/>
+            
+        </div>
+        <div class="col">
+            <img src={require("../../assets/img/Redux.png") } class="rounded float-start" height="100px" alt="redux"/>
+            
+        </div>
+      </div>
+      <br/>
+      <br/>
         <Tabs
           className="skills-tabs"
           defaultActiveKey="hard-skills"

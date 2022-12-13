@@ -54,7 +54,7 @@ const about = {
   imageLink: "https://avatars.githubusercontent.com/u/111170924?s=400&u=bf045ed40aaa0c121b252ec0730695a367e9bbd9&v=4",
   imageSize: 375,
   message:
-    "My name is Charles Galwyn. I’m a graduate of 2020 from Alagappa College of Technology, Anna University with a degree in Chemical Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like solving problems in LeetCode .",
+    "I'am Charles Galwyn. I’m a graduate of 2020 from Alagappa College of Technology, Anna University with a degree in Chemical Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like solving problems in LeetCode .",
   resume: "https://drive.google.com/file/d/1yBaGGoKU_iQAfxXEwPbylali86-sEPEV/view?usp=sharing",
 };
 
@@ -100,14 +100,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "JAVA", value: 90 },
-    { name: "NodeJS", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "Chakra UI", value: 65 },
     { name: "JavaScript", value: 90 },
+    { name: "HTML/CSS", value: 95 },
     { name: "React", value: 85 },
-    { name: "HTML/CSS", value: 80 },
-    { name: "MongoDB", value: 80 },
+    { name: "Chakra UI", value: 90 },
+    { name: "Redux", value: 90 },
+    { name: "MongoDB", value: 85 },
+    { name: "NodeJS", value: 80 },
+    { name: "Mongoose", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
