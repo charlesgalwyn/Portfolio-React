@@ -39,8 +39,17 @@ const blog2 = new BlogBuilder({
   bloglink:"https://medium.com/@charlesgalwyn/jiomart-clone-96e0b423f0d8", 
 });
 
+  const blog4 = new BlogBuilder({
+  title: "Dynamic Programming",
+  image: require("../assets/img/dynamic blog.png"),
+  description:
+    "This blog is regarding how Dynamic Programming can solve complex problems",
+  bloglink:"https://medium.com/@charlesgalwyn/how-dynamic-programming-can-help-solve-complex-problems-data-structures-algorithms-23fd9e8f23b1", 
+});
+
 bloglist.push(blog1);
 bloglist.push(blog2);
 bloglist.push(blog3);
+bloglist.push(blog4);
 
 export default bloglist;
