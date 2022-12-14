@@ -47,6 +47,7 @@ const Project = ({ heading, username, length, specfic }) => {
       // setting projectArray
       // TODO: remove the duplication.
       setProjectsArray(repoList);
+      
     } catch (error) {
       console.error(error.message);
     }

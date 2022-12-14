@@ -7,6 +7,8 @@ const Footer = (props) => {
   return (
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
+        <br/>
+        <br/>
         {props.children}
         <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
         <a

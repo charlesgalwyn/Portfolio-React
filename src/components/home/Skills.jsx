@@ -4,7 +4,6 @@ import Tabs from "react-bootstrap/Tabs";
 import SkillsTab from "./SkillsTab";
 import Row from "react-bootstrap/Row";
 import { Jumbotron } from "./migration";
-import { Container } from "react-bootstrap";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
@@ -22,7 +21,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-white m-0" id="skills">
   
-      <Container className="p-5 ">
+      
         
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
@@ -88,7 +87,7 @@ const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
             </Row>
           </Tab>
         </Tabs>
-      </Container>
+      
     </Jumbotron>
   );
 });

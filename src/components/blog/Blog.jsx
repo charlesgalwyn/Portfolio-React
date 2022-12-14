@@ -14,7 +14,7 @@ const Blog = (props) => {
   return (
     <Jumbotron id="blog">
     <Container>
-    <div className="container-lg mt-5 bg-blue">
+    
       <h1 className="display-4 pb-5 text-center">Blogs</h1>
       <Row>
       {bloglist.map((value, index) => {
@@ -31,7 +31,7 @@ const Blog = (props) => {
       })}
       </Row>
       
-    </div>
+    
     </Container>
     </Jumbotron>
   );
@@ -42,13 +42,10 @@ const BlogCard = ({ index, title, image, description , bloglink}) => {
   return (
     <Col md={6}>
     <Card>
-    <div className="m-5">
-      <div className="">
-        <div className="row">
-          <div className="col-4 col-lg-12" >
-            <img src={image} className="img-fluid" alt="..."/>
-          </div>
+    <div className="m-5">         
           <div className="col-8 col-lg-12">
+            <img src={image} className="img-fluid" alt="..."/>
+            <br/>
             <br/>
             <div className="">
               <Card.Title as="h5">{title}</Card.Title>
@@ -57,10 +54,7 @@ const BlogCard = ({ index, title, image, description , bloglink}) => {
               
               <Button variant="light"  href={bloglink} target="_blank">Read more...</Button>{' '}
             </div>
-          </div>
-        </div>
-        
-      </div>
+          </div>      
     </div>
     </Card>
     <br />
