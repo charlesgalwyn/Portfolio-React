@@ -14,7 +14,8 @@ const Blog = (props) => {
   return (
     <Jumbotron id="blog">
     <Container>
-    
+      
+    <div>
       <h1 className="display-4 pb-5 text-center">Blogs</h1>
       <Row>
       {bloglist.map((value, index) => {
@@ -30,7 +31,7 @@ const Blog = (props) => {
         );
       })}
       </Row>
-      
+    </div>  
     
     </Container>
     </Jumbotron>

@@ -7,7 +7,6 @@ import {
   repos,
   skills,
   getInTouch,
-  experiences,
   blog
 } from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
@@ -18,7 +17,6 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
 import { Blog } from "./components/blog/Blog";
 import GetInTouch from "./components/home/GetInTouch.jsx";
-import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -39,12 +37,7 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
-
+      
       {
         blog.show && (
           <Blog blog={blog}/>
