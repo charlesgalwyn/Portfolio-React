@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.778eeed7.css",
-    "main.js": "/Portfolio-React/static/js/main.9faa2c5b.js",
+    "main.js": "/Portfolio-React/static/js/main.4b849b36.js",
     "static/js/787.4b24f717.chunk.js": "/Portfolio-React/static/js/787.4b24f717.chunk.js",
     "static/media/hashirshoaeb.png": "/Portfolio-React/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
     "static/media/bohemian blog.png": "/Portfolio-React/static/media/bohemian blog.8f2e305ccba92f666992.png",
     "static/media/Udemy blog.png": "/Portfolio-React/static/media/Udemy blog.3d76662e634dd2da49aa.png",
     "static/media/JioMart blog.png": "/Portfolio-React/static/media/JioMart blog.415456db5aae111a50d2.png",
     "static/media/dynamic blog.png": "/Portfolio-React/static/media/dynamic blog.1e719ae19d6634063b36.png",
+    "static/media/DSA.jpeg": "/Portfolio-React/static/media/DSA.95efd90a9606913cd738.jpeg",
     "static/media/icon-6.png": "/Portfolio-React/static/media/icon-6.3c196e27543451798f3d.png",
     "static/media/Java.png": "/Portfolio-React/static/media/Java.2be0bca1b95cfc0ce63e.png",
     "static/media/Redux.png": "/Portfolio-React/static/media/Redux.d171ebbdfb29ef0702ab.png",
@@ -18,11 +19,11 @@
     "static/media/icon-3.png": "/Portfolio-React/static/media/icon-3.b53de0f8c513f9e8b378.png",
     "index.html": "/Portfolio-React/index.html",
     "main.778eeed7.css.map": "/Portfolio-React/static/css/main.778eeed7.css.map",
-    "main.9faa2c5b.js.map": "/Portfolio-React/static/js/main.9faa2c5b.js.map",
+    "main.4b849b36.js.map": "/Portfolio-React/static/js/main.4b849b36.js.map",
     "787.4b24f717.chunk.js.map": "/Portfolio-React/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.9faa2c5b.js"
+    "static/js/main.4b849b36.js"
   ]
 }
