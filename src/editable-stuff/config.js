@@ -128,6 +128,7 @@ const getInTouch = {
   message:
     "I'm currently looking for full-time Software Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "charlesgalwyn@gmail.com",
+  phone: "+91 8667879643"
 };
 
 const experiences = {
@@ -152,4 +153,8 @@ const experiences = {
    show: true,
 };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,blog };
+const images= [require("../assets/img/bohemian blog.png"), require("../assets/img/Udemy blog.png"), 
+ require("../assets/img/JioMart blog.png"), require("../assets/img/dynamic blog.png")
+]
+
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,blog, images };

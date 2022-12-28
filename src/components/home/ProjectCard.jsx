@@ -3,8 +3,10 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
+import { images } from "../../editable-stuff/config";
 
-const ProjectCard = ({ value }) => {
+const ProjectCard = ({ value , index}) => {
+
   const {
     name,
     description,
@@ -12,13 +14,16 @@ const ProjectCard = ({ value }) => {
     stargazers_count,
     languages_url,
     pushed_at,
-    homepage
+    homepage,
+    topics
   } = value;
   
   return (
-    <Col md={6}>
-      <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+    <Col md={6} >
+      <Card className="card shadow-lg p-3 mb-5 bg-light text-dark" >
         <Card.Body>
+          <HeroImg images={images[index]}/>
+          <br/>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
           <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} homepage={homepage} /> : <Skeleton count={2} />}
@@ -28,6 +33,12 @@ const ProjectCard = ({ value }) => {
           ) : (
             <Skeleton count={3} />
           )}
+          { topics ? (
+            <TechStack topics={topics} />
+          ) : (
+            <Skeleton />
+          )
+          }
           {value ? (
             <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
           ) : (
@@ -147,3 +158,38 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
 };
 
 export default ProjectCard;
+
+const TechStack=({topics})=>{
+  //console.log(topics)
+  return (
+    <div>
+      <div className="pb-3">
+      Tech Stack:{" "}
+      {topics.length
+        ? topics.map((ele, index) => (
+          <a style={{cursor:"pointer"}}
+            key={index+1}
+            className="card-link bg-light"
+            //href={repo_url + `/search?l=${language}`}
+            target=" _blank"
+            rel="noopener noreferrer"
+          >
+            {ele}
+          </a>
+
+        ))
+        : "No TechStack Used"}
+    </div>
+    </div>
+  )
+}
+
+const HeroImg=({images})=>{
+  return (
+    <div>
+      {         
+          <img src={images} style={{width:"100%"} } alt="dani"></img>       
+      }
+    </div>
+  )
+}

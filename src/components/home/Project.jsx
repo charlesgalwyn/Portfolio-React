@@ -68,6 +68,8 @@ const Project = ({ heading, username, length, specfic }) => {
                 key={`project-card-${index}`}
                 id={`project-card-${index}`}
                 value={project}
+                index={index}
+                
               />
             ))
             : dummyProjectsArr.map((project, index) => (
@@ -75,6 +77,7 @@ const Project = ({ heading, username, length, specfic }) => {
                 key={`dummy-${index}`}
                 id={`dummy-${index}`}
                 value={project}
+                index={index}
               />
             ))}
         </Row>

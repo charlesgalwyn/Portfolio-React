@@ -1,15 +1,18 @@
 import React from "react";
 import { Jumbotron } from "./migration";
-import { mainBody } from "../../editable-stuff/config";
+//import { mainBody } from "../../editable-stuff/config";
 
-const GetInTouch = ({ heading, message, email }) => {
-  console.log(mainBody.icons)
+const GetInTouch = ({ heading, message, email,phone }) => {
+  //console.log(mainBody.icons)
   //const icons =mainBody.icons;
+  //console.log(phone)
   return (
     <Jumbotron id="contact">
       <h2 className="display-4 pb-3 text-center">{heading}</h2>
       <p className="lead text-center pb-3">
-        {message}, <a className="text-decoration-none" href={`mailto:${email}`}>{email}</a>.
+        {message}, <a className="text-decoration-none" href={`mailto:${email}`}>{email}</a>
+        <br/>or call me at
+        <a className="text-decoration-none" href={`mailto:${email}`}>{phone}</a>.
       </p>
 
       {/* <div className="p-5">
