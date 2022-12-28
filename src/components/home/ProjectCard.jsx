@@ -164,7 +164,7 @@ const TechStack=({topics})=>{
   return (
     <div>
       <div className="pb-3">
-      Tech Stack:{" "}
+      <span > Tech Stack: </span>{" "}
       {topics.length
         ? topics.map((ele, index) => (
           <a style={{cursor:"pointer"}}

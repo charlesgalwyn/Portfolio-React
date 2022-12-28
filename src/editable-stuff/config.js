@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "I'am Charles Galwyn. I’m a graduate of 2020 from Alagappa College of Technology, Anna University with a degree in Chemical Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like solving problems in LeetCode .",
-  resume: "https://drive.google.com/file/d/1e35EJ0Iw4-sCf23gxZDenPFnN2KrK2qD/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1jH1q9tFi5DnW0iNeT1qx41eb-KaaU21b/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -154,7 +154,7 @@ const experiences = {
 };
 
 const images= [require("../assets/img/bohemian blog.png"), require("../assets/img/Udemy blog.png"), 
- require("../assets/img/JioMart blog.png"), require("../assets/img/dynamic blog.png")
+ require("../assets/img/JioMart blog.png"), require("../assets/img/DSA.jpeg")
 ]
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences,blog, images };
