@@ -44,7 +44,7 @@ const BlogCard = ({ index, title, image, description , bloglink}) => {
     <Col md={6}>
     <Card>
     <div className="m-5">  
-      <Card.Body>       
+             
           <div className="col-8 col-lg-12">
             <img src={image} className="img-fluid" alt="..."/>
             <br/>
@@ -57,7 +57,7 @@ const BlogCard = ({ index, title, image, description , bloglink}) => {
               <Button variant="light"  href={bloglink} target="_blank">Read more...</Button>{' '}
             </div>
           </div>  
-        </Card.Body>    
+            
     </div>
     </Card>
     <br />
